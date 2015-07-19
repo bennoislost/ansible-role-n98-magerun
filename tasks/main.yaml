@@ -5,3 +5,10 @@
     dest: "{{ bennoislost_magerun_bin_path }}"
     mode: 0755
   when: bennoislost_magerun_enabled
+
+- name: Download n98-magerun.phar for Magento2
+  get_url:
+    url: "{{ bennoislost_magerun2_download_url }}"
+    dest: "{{ bennoislost_magerun2_bin_path }}"
+    mode: 0755
+  when: bennoislost_magerun2_enabled
