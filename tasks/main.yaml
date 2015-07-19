@@ -1,0 +1,6 @@
+---
+- name: Download n98-magerun.phar
+  get_url:
+    url: "{{ bennoislost_magerun_download_url }}"
+    dest: "{{ bennoislost_magerun_bin_path }}"
+  when: bennoislost_magerun_enabled
