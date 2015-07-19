@@ -1,0 +1,23 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: bennoislost
+  description: N98-magerun CLI tool for Magento1 & Magento2
+  company: "Ben McManus"
+  license: "MIT"
+  min_ansible_version: 1.4
+  platforms:
+  - name: EL
+    versions:
+      - 6
+      - 7
+  - name: Ubuntu
+    versions:
+      - precise
+      - trusty
+  categories:
+    - web
+    - ecommerce
+    - magento
+    - php
