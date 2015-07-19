@@ -3,4 +3,5 @@
   get_url:
     url: "{{ bennoislost_magerun_download_url }}"
     dest: "{{ bennoislost_magerun_bin_path }}"
+    mode: 0755
   when: bennoislost_magerun_enabled
