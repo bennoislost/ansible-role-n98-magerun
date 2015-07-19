@@ -1,5 +1,5 @@
 ---
-- name: Download n98-magerun.phar
+- name: Download n98-magerun.phar for Magento
   get_url:
     url: "{{ bennoislost_magerun_download_url }}"
     dest: "{{ bennoislost_magerun_bin_path }}"
