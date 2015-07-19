@@ -1,4 +1,4 @@
-# Ansible Role: N98-magrun
+# Ansible Role: N98-magerun
 
 An Ansible Role that installs the Magento CLI tool N98 Magerun on Linux.
 
